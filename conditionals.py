@@ -35,3 +35,19 @@ elif age_2 >= 12 and age_2 < 18:
   print("That will be $8")
 else:
   print("That will be $9")
+
+#advanced bmi calculator
+#input weight in kg
+weight = input("Please enter your weight in kg ")
+#input height in meters
+height = input("Please enter your height in meters ")
+#calculate bmi
+bmi = float(weight) / float(height) ** 2
+#print output of bmi
+if bmi <= 18.5:
+  print("Your BMI is " + str(bmi) + ", please proceed to your nearest Carl's Jr")
+elif bmi > 18.5 and bmi < 25:
+  print("Your BMI is " + str(bmi) + ", keep doing what you are doing!")
+else:
+    print("Your BMI is " + str(bmi) + ", please drop the chalupa")
+
