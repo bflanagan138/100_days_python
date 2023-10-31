@@ -1,3 +1,6 @@
+name = input("What is your name?")
+print(f"Hello," + name)
+
 # add = 3 + 5 #three plus five
 # subtract = 3 - 5 #three minus five
 # #addition, subtraction, multiplication will return integers unless specified

@@ -17,3 +17,4 @@ b = c
 
 print("a: " + a)
 print("b: " + b)
+print(len(a + b))
